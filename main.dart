@@ -41,7 +41,6 @@ class LoginPage extends StatelessWidget {
               ),
               const SizedBox(height: 32),
 
-              // Username
               TextField(
                 decoration: InputDecoration(
                   labelText: 'Username',
@@ -85,3 +84,4 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
+
