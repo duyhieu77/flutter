@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Header
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -34,8 +34,7 @@ class HomePage extends StatelessWidget {
               ),
 
               const SizedBox(height: 12),
-
-              // Search
+              
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 decoration: BoxDecoration(
@@ -145,4 +144,5 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+
 }
